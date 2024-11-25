@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 10px solid black;
+            width:700px;
+            height:500px;
+            padding:10px;
+            text-align: center;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="success.html">
+        <table border="1">
+        <caption><h1>Signup Form</h1></caption>
+        <tr>
+            <td>
+        <label for="name">Name:</label></td>
+       <td> <input type="text" name="name" value="" required><br></td></tr>
+       <tr> <td><label for="Age">Age:</label></td>
+        <td><input type="number" name="age" value="" required><br></td></tr>
+       <tr><td><label for="phonenumber">phonenumber:</label></td>
+       <td><input type="number" name="phonenumber" value="" required><br></td> </tr> 
+       <tr> <td><label for="gender">Gender</label></td>
+       <td> <input type="radio" name="Gender" value="female">female
+        <input type="radio" name="Gender" value="male">male<br></td></tr>
+
+       <tr> <td><label for="Qualification">Qualification</label></td>
+        <td>
+       <select>
+        <option>choose</option>
+        <option>BSC</option>
+        <option>MSC</option>
+        <option>M.tech</option>
+        <option>B.tech</option>
+        <option>BCA</option>
+        <option>BE</option>
+
+       </select><br></td></tr>
+       <tr><td><label for="email">Email:</label></td>
+     <td> <input type="email" name="email" value="" required><br></td> </tr>
+       <tr><td><label for="Address">Address</label></td>
+     <td>  <textarea rows="3" ></textarea><br></td></tr>
+      <tr> <td><label for="language">Language</label></td>
+      <td><input type="checkbox" name="language" value="tamil">Tamil
+       <input type="checkbox" name="language" value="english">English
+       <input type="checkbox" name="language" value="Hindi">Hindi<br></td> </tr>
+       <tr>
+        <td><label>DOB</label></td>
+        <td><input type="date" name="dob" value="">
+       </tr>
+     <tr><td colspan="2"><button type="submit">Register</button></td></tr>
+
+
+    </table>
+    </form>
+</body>
+</html>
